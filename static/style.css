@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{font-style: italic;}
+ul{display: flex; list-style: none;background-color: black;margin-top: 0px;padding: 1%;width: 100%; align-items: center;}
+li{padding: 10px;}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin:0 14px;
+}
+
+#logo img{
+    height: 2.5rem;
+    filter: invert();
+}
+
+#navbar li a{text-decoration: none; color: white;}
+#navbar li a:hover{background-color: wheat;color: black;border-radius: 8px;padding: 5px;}
+
+#introSection{height:50vh;background:center/cover no-repeat  url(/static/bg.jpg); color: white; display: flex;justify-content: center; align-items: center; font-size: 2rem;flex-direction: column;}
+
+#introSection div.small{font-size: 1rem;}
+
+#missionSection{background-color:white;display: flex;flex-direction: column;justify-content: center;}
+
+#missionSection h1{display:flex;justify-content: center;}
+.mission{display: flex;justify-content: center;}
+
+#missionSection div.card{height: 40vh;
+    width: 70vh;
+    display: inline-block;
+    margin: 2rem 1rem 2rem 2rem;}
+
+.card{border:2px solid black; border-radius: 10px; background-color:white; color: white;background-color: black;}
+.card-box{display: flex;align-items: center;margin: 12% 4%;}
+
+.card-img{width:50%;height: 50%;}
+.card-img img{width: inherit; filter: invert();}
+
+#sponsersSection{height:auto;background-color: black; padding: 1rem; font-size: 2rem;}
+#sponsersSection h2{display: flex; justify-content: center;color: white;}
+
+div.sponsers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    filter: inherit;
+}
+
+.sponser-img{margin: 2%; filter: invert();}
+#footer{height:15vh;background-color:grey;display: flex;align-items: center;justify-content: center;}
+
+.card h3{display:flex;justify-content: center;} 

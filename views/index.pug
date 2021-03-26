@@ -1,0 +1,58 @@
+doctype html
+html
+    head
+        title HIP-HOP Dance Academy 
+        style
+            include ../static/style.css   
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src='/static/logo.png')
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Contact Us]
+        section#introSection
+            div HIP-HOP DANCE ACADEMY
+            div.small Eat Sleep Dance Repeat
+        section#missionSection
+            h1 Our mission
+            div.mission
+                div.card
+                    h3 Dance Perfection
+                    div.card-box
+                        div.card-img
+                            img(src='/static/hip-hop1.png')
+                        div.card-content
+                            p Lorem ipsum dolor sit amet.      
+
+                div.card
+                    h3 Dance the way you like
+                    div.card-box
+                        div.card-img
+                            img(src='/static/hip-hop2.png')
+                        div.card-content
+                            p Lorem ipsum dolor sit amet.
+                div.card 
+                    h3 Expert Teaching
+                    div.card-box
+                        div.card-img
+                            img(src='/static/hip-hop3.png')
+                        div.card-content
+                            p Lorem ipsum dolor sit amet.
+        section#sponsersSection
+            h2 Our Sponsors
+            div.sponsers
+                div.sponser-img
+                    img(src='/static/sponsor1.jpg')
+                div.sponser-img
+                    img(src='/static/sponsor2.jpg')
+                div.sponser-img
+                    img(src='/static/sponsor3.jpg')
+                div.sponser-img
+                    img(src='/static/sponsor4.png')
+        footer#footer
+            | Copyright © 2021 Akshay Thakur | All rights are reserverd 
+        script
+            include ../static/index.js
+

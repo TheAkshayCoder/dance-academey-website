@@ -1,0 +1,18 @@
+//- layout.pug
+doctype html
+html
+  head
+    title HIP-HOP Dance Academy 
+    block scripts
+    block style
+  body
+    nav#navbar
+            ul
+                div#logo
+                    img(src='/static/logo.png')
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/Contact') Contact Us]
+    block content
+    footer#footer
+            | Copyright © 2021 Akshay Thakur | All rights are reserverd 
